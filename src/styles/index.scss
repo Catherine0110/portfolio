@@ -1,0 +1,27 @@
+@import './global.scss';
+@import './mixins.scss';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.root {
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 100%;
+  font-weight: 400;
+  color: var(--black);
+  background-color: var(--white-bg);
+}

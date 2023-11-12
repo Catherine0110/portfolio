@@ -1,0 +1,40 @@
+{
+  "О себе": "About",
+  "Проекты": "Projects",
+  "Контакты": "Contact Me",
+  "Привет, я": "Hello, I`m",
+  "Екатерина": "Catherine",
+  "Frontend разработчик": "Frontend web developer",
+  "Связаться": "Let’s Talk",
+  "Ru": "En",
+  "Обо мне": "About me",
+  "Привет! Меня зовут Екатерина и я frontend разработчик.</br></br>Мой опыт включает в себя разработку пользовательских интерфейсов, создание адаптивных и кроссбраузерных веб-сайтов, а также оптимизацию производительности , рефакторинг и доработку проектов. Я уверенно работаю с современными фронтенд-технологиями и инструментами, что позволяет мне создавать высококачественные продукты для пользователей.</br></br>Я постоянно обучаюсь и развиваю свои навыки, следуя последним тенденциям в веб-разработке. Готова к новым вызовам и всегда открыта для сотрудничества.": "Hello! My name is Catherine and I am a front-end web developer.</br></br>My experience includes developing user interfaces, creating responsive and cross-browser websites, as well as optimizing performance, refactoring, and improving projects. I confidently work with modern front-end technologies and tools, allowing me to create high-quality products for users.</br></br>I am constantly learning and developing my skills, following the latest trends in web development. I am ready for new challenges and always open to collaboration.",
+  "Сообщение": "Message",
+  "Почта": "Your email",
+  "Имя": "What’s your name?",
+  "Связаться со мной": "Get in touch",
+  "Связаться ": "Get in touch",
+  "Спасибо": {
+    " Я свяжусь с вами как можно скорее": {
+      "": "Thank you. I will get back to you as soon as possible."
+    }
+  },
+  "Что-то пошло не так": "Something went wrong",
+  "Отправить": "Send",
+  "Отправка": {
+    "": {
+      "": {
+        "": "Sending..."
+      }
+    }
+  },
+  "Освоение новых технологий через разработку  pet проекта на React, включая настройку всей инфраструктуры, тестовой среды, работу с сервером/данными и т д.": "Mastering new technologies through the development of a pet project on React, including setting up the entire infrastructure, testing environment, working with server/data, etc.",
+  "Pазработка интернет-магазина с нуля для компании , доставляющей электронную технику в PФ из ОАЭ.": "Developing an online store from scratch for a company that delivers electronic goods  from the UAE.",
+  "Доработка  крупного интернет-магазин керамической плитки и сантехники.": "Revising a large online store for ceramic tiles and plumbing fixtures.",
+  "Разработка сайта с нуля для компании ,предоставляющей услуги лизинга частным коммерческим предприятиям и потребителям.": "Developing a website from scratch for a company that provides leasing services to private commercial enterprises and consumers.",
+  "Доработка CRM для организации, реализующей программы наставничества, образования и профориентации для детей-сирот.": "Adapting CRM for an organization that implements mentoring, education, and career guidance programs for orphaned children.",
+  "Разработка сайта с нуля для мультисервисной SAAS платформы в области ВЭД.": "Developing a website from scratch for a multi-service SAAS platform in the field of foreign trade.",
+  "Разработка лендинга на wordpress с нуля для компании по продаже рыбных снеков.": "Developing a landing page on WordPress from scratch for a company selling fish snacks.",
+  "Проект в процессе разработки": "Project in the process of development",
+  "Обновить страницу": "Reload page"
+}

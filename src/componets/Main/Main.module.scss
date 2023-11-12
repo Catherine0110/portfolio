@@ -1,0 +1,8 @@
+@import '../../styles/variables.scss';
+
+.Main {
+    margin-bottom: 100px;
+    @media (max-width: $mobile-xs) {
+        margin-bottom: 60px;
+    }
+}

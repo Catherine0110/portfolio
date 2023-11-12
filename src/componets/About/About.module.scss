@@ -1,0 +1,82 @@
+@import '../../styles/variables.scss';
+
+.About{
+    padding-bottom: 150px;
+    @media (max-width: $mobile) {
+        padding-bottom: 120px;
+    }
+
+    &Content {
+        margin-bottom: 80px;
+        @media (max-width: $mobile) {
+            margin-bottom: 50px;
+        }
+    }
+
+    &Title {
+        font-size: var(--font-m);
+        line-height: 100%;
+        margin-bottom: 20px;
+        @media (max-width: $mobile) {
+            font-size: var(--font-s);
+        }
+    }
+
+    &Text {
+        line-height: 120%;
+        color: var(--gray-dark);
+        @media (max-width: $mobile) {
+            font-size: var(--font-xs);
+        }
+    }
+
+    &Skills {
+        @media (max-width: $tablet-s) {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+    
+    :global{
+        .swiper {
+            padding: 20px;
+            margin-left: -20px;
+            margin-right: -20px;
+        }
+
+        .swiper-wrapper {
+            margin-bottom: 40px;
+        }
+        
+        .swiper-slide {
+            width: 115px;
+            height: 115px;
+            transition:  0.3s ease;
+            cursor: grab;
+            &:hover {
+                transform: scale(1.1)
+            }
+            &:active {
+                cursor: grabbing;
+            }
+        }
+
+        .swiper-scrollbar {
+            width: 30%;
+            height: 8px;
+            padding: 2px;
+            background-color: var(--violet-scroll);
+            cursor: pointer;
+           
+            @media (max-width: $mobile-xs) {
+                width: 90%;
+            }
+        }
+
+        .swiper-scrollbar-drag {
+            height: 4px;
+            background-color: var(--violet-scroll-inner);
+        }
+    }
+    
+}

@@ -1,0 +1,23 @@
+@import '../../styles/variables.scss';
+
+.Earth {
+    position: relative;
+    z-index: 3;
+    height: 80%;
+    width:  100%;
+    cursor: grab;
+    &:active {
+        cursor: grabbing;
+    }
+
+    @media (max-width: $tablet-s) {
+        height: 60%;
+    }
+    @media (max-width: $mobile) {
+        max-width: 500px;
+        height: 70%;
+    }
+    @media (max-width: $mobile-xs) {
+        height: 70%;
+    }
+}
