@@ -51,7 +51,11 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ item }) => {
           </div>
         ) : (
           <div className={cls.ProjectItemImg}>
-            <img src={item.img} className={cls.ProjectItemImage} />
+            <img
+              loading="lazy"
+              src={item.img}
+              className={cls.ProjectItemImage}
+            />
           </div>
         )}
         <div className={cls.ProjectItemContent}>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { formIcons } from '../../constants'
 import emailjs from '@emailjs/browser'
 import { Formik, Form, Field, FormikHelpers } from 'formik'
@@ -22,12 +22,6 @@ type FormAttributes = {
   message: string
 }
 
-const schema: yup.Schema<FormAttributes> = yup.object().shape({
-  email: yup.string().email('Invalid email').required('field required'),
-  name: yup.string().required('field required'),
-  message: yup.string().required('field required'),
-})
-
 const FormEl = (props: FormProps) => {
   const { placeholderArea, placeholderMail, placeholderName, title } = props
   const { t } = useTranslation()
@@ -35,6 +29,15 @@ const FormEl = (props: FormProps) => {
   const [loading, setLoading] = useState(false)
   const [success, setSuccess] = useState<string>('')
   const [errorM, setError] = useState<string>('')
+
+  const schema: yup.Schema<FormAttributes> = yup.object().shape({
+    email: yup
+      .string()
+      .email(t('Некорректный email'))
+      .required(t('Пожалуйста, заполните поле')),
+    name: yup.string().required(t('Пожалуйста, заполните поле')),
+    message: yup.string().required(t('Пожалуйста, заполните поле')),
+  })
 
   const handleFormSubmit = (
     values: FormAttributes,

@@ -7,8 +7,9 @@
     position: relative;
     color: var(--violet);
     padding-bottom: 10px;
+
     &::after {
-        content:"";
+        content: "";
         display: block;
         position: absolute;
         bottom: 0;

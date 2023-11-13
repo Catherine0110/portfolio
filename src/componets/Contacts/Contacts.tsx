@@ -1,6 +1,4 @@
-import React, { useRef, useState } from 'react'
 import { motion } from 'framer-motion'
-import emailjs from '@emailjs/browser'
 
 import EarthCanvas from '../Earth/Earth'
 import SectionWrapper from '../utils/SectionWrapper'

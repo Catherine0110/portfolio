@@ -3,14 +3,18 @@
 .ParalaxItem {
     position: absolute;
     transition: 0.2s ease;
+
     &.violet {
         color: var(--violet);
     }
+
     &.pink {
         color: var(--pink);
     }
+
     &.white {
         color: var(--white);
+
         @media (max-width: $mobile-xs) {
             top: -24px !important;
             right: 15% !important;
@@ -20,7 +24,7 @@
 
 .paralaxElDots {
     @media (max-width: $mobile) {
-            display: none;
+        display: none;
     }
 }
 

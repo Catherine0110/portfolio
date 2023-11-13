@@ -12,17 +12,20 @@
     justify-content: center;
     flex-shrink: 0;
     transition: 0.3s ease;
+
     &:not(:last-child) {
         margin-right: 50px;
+
         @media (max-width: $mobile) {
             margin-right: 20px;
         }
     }
-    
+
     @media (max-width: $mobile) {
         width: 100px;
         height: 100px;
     }
+
     &:hover {
         transform: scale(1.1)
     }
@@ -31,6 +34,7 @@
         width: 40px;
         height: 40px;
         margin-bottom: 3px;
+
         :global(svg) {
             width: 100%;
             height: 100%;
@@ -39,42 +43,55 @@
 
     &Pink {
         @include skillcardColor(#FFF6FA, #FFE7F0, rgba(255, 215, 233, 0.5));
+
         .SkillCardIcon {
             color: var(--pink);
         }
     }
+
     &Green {
         @include skillcardColor(#EDFFF5, #CAFFE1, rgba(188, 255, 219, 0.5));
+
         .SkillCardIcon {
             color: #8efabf;
         }
     }
+
     &Blue {
         @include skillcardColor(#F5FCFF, #DDF5FF, rgba(206, 242, 255, 0.5));
+
         .SkillCardIcon {
             color: #90DEFF;
         }
     }
+
     &Yellow {
         @include skillcardColor(#FFFBF2, #FFEEC9, rgba(255, 233, 188, 0.5));
+
         .SkillCardIcon {
             color: #FFE4A9;
         }
     }
+
     &GreenLight {
         @include skillcardColor(#F4FFED, #DBFFC3, rgba(210, 255, 181, 0.5));
+
         .SkillCardIcon {
             color: #95BF46;
         }
     }
+
     &Violet {
         @include skillcardColor(#F8F2FF, #E1C7FF, rgba(215, 180, 255, 0.5));
+
         .SkillCardIcon {
             color: #D5B2FF;
         }
     }
+
     &Fuchsia {
         @include skillcardColor(#FFF2FE, #FFCEFB, rgba(255, 192, 250, 0.5));
+
         .SkillCardIcon {
             color: #FFB8F8;
         }

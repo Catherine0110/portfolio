@@ -1,13 +1,11 @@
 import React from 'react'
 import Logo from '../../assets/logo.svg'
 import LogoMobile from '../../assets/logo-mobile.svg'
-import Mail from '../../assets/mail.svg'
 
 import cls from './Header.module.scss'
 import { Link } from 'react-router-dom'
 import { navMenu } from '../../constants'
 import { MobileContext } from '../utils/MobileContextProvider'
-import { classNames } from '../utils/ClassNames'
 import { useTranslation } from 'react-i18next'
 
 const Header = () => {

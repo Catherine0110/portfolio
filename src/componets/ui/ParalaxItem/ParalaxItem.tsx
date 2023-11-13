@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect, memo } from 'react'
+import React, { memo } from 'react'
 import cls from './ParalaxItem.module.scss'
 import { classNames } from '../../utils/ClassNames'
 import { MouseParallax } from 'react-just-parallax'

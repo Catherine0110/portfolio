@@ -34,7 +34,7 @@ function App() {
   }
 
   return (
-    <Suspense fallback="">
+    <Suspense fallback="loading...">
       <Layout>
         <Main />
         <About />

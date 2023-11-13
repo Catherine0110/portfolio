@@ -1,4 +1,3 @@
-import React from 'react'
 import cls from './Main.module.scss'
 import Header from '../Header/Header'
 import MainContent from '../MainContent/MainContent'

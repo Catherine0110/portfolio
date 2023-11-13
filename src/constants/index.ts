@@ -87,9 +87,9 @@ const projects = [
 
     {id: 3,img: CELImg, title: 'Credit Europe Leasing', text: 'Разработка сайта с нуля для компании ,предоставляющей услуги лизинга частным коммерческим предприятиям и потребителям.', role: ['frontend-developer'], technologies: [{color: 'green',text: 'html'}, {color: 'pink',text: 'scss'}, {color: 'blue',text: 'js'}, {color: 'yellow',text: 'gulp'}, {color: 'greenl',text: 'pug'} ], href: 'https://www.crediteuropeleasing.ru/'},
 
-    {id: 4,img: MintImg, title: 'Mint', text: 'Доработка CRM для организации, реализующей программы наставничества, образования и профориентации для детей-сирот.', role: ['frontend-developer'], technologies: [{color: 'green',text: 'html'}, {color: 'pink',text: 'html'}, {color: 'blue',text: 'js'}, {color: 'yellow',text: 'gulp'}, {color: 'greenl',text: 'pug'},{color: 'fuchsia',text:'webpack'} ], href: 'https://crm.justmint.ru/'},
+    {id: 4,img: MintImg, title: 'Mint', text: 'Доработка CRM для организации, реализующей программы наставничества, образования и профориентации для детей-сирот.', role: ['frontend-developer'], technologies: [{color: 'green',text: 'html'}, {color: 'pink',text: 'scss'}, {color: 'blue',text: 'js'}, {color: 'yellow',text: 'gulp'}, {color: 'greenl',text: 'pug'},{color: 'fuchsia',text:'webpack'} ], href: 'https://crm.justmint.ru/'},
 
-    {id: 5,img: DVedImg, title: 'Digital Ved', text: 'Разработка сайта с нуля для мультисервисной SAAS платформы в области ВЭД.', role: ['frontend-developer'], technologies: [{color: 'green',text: 'html'}, {color: 'pink',text: 'html'}, {color: 'blue',text: 'js'}, {color: 'yellow',text: 'gulp'}, {color: 'greenl',text: 'pug'}], href: 'https://digitalved.ru/'},
+    {id: 5,img: DVedImg, title: 'Digital Ved', text: 'Разработка сайта с нуля для мультисервисной SAAS платформы в области ВЭД.', role: ['frontend-developer'], technologies: [{color: 'green',text: 'html'}, {color: 'pink',text: 'scss'}, {color: 'blue',text: 'js'}, {color: 'yellow',text: 'gulp'}, {color: 'greenl',text: 'pug'}], href: 'https://digitalved.ru/'},
 
     {id: 6,img: VMarketImg, title: 'Vobla market', text: 'Разработка лендинга на wordpress с нуля для компании по продаже рыбных снеков.', role: ['developer', 'designer'], technologies: [{color: 'green',text: 'wordpress'}, {color: 'pink',text: 'css'}, {color: 'blue',text: 'js'} ], href: 'https://vobla-market.ru/'},
 ]

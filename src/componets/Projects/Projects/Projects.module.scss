@@ -3,6 +3,7 @@
 .Projects {
     &Wrap {
         position: relative;
+
         &::after {
             content: '';
             display: block;
@@ -11,23 +12,25 @@
             top: 0;
             left: 0;
             position: absolute;
-            background-image:linear-gradient(180deg, var(--violet) 0%, var(--pink));
+            background-image: linear-gradient(180deg, var(--violet) 0%, var(--pink));
             opacity: 0.15;
             background-repeat: no-repeat;
             background-position: center;
             filter: blur(75px);
             z-index: 0;
         }
-       
+
     }
 
     &Title {
         font-size: var(--font-m);
         font-weight: 700;
         line-height: 100%;
+
         @media (max-width: $tablet-s) {
             font-size: calc(var(--font-m) - 6px);
         }
+
         @media (max-width: $mobile) {
             font-size: var(--font-s);
         }
@@ -48,33 +51,40 @@
         margin-top: -30px;
         margin-right: -15px;
         margin-left: -15px;
+
         @media (max-width: $mobile) {
             padding-bottom: 60px;
         }
 
         :global {
-            .swiper-button-prev, .swiper-button-next {
+
+            .swiper-button-prev,
+            .swiper-button-next {
                 top: 22px;
                 right: 65px;
-                left: unset;                
+                left: unset;
                 width: 40px;
                 height: 40px;
                 color: var(--violet);
                 background-color: var(--white);
                 border-radius: 50%;
+
                 &::after {
                     position: absolute;
                     font-size: var(--font-s);
                     top: 50%;
                     left: calc(50% - 2px);
-                    transform: translate(-50%,-50%);
+                    transform: translate(-50%, -50%);
                 }
+
                 &:hover:not(.swiper-button-disabled) {
                     background-color: #f8fdff;
                 }
             }
+
             .swiper-button-next {
                 right: 12px;
+
                 &::after {
                     left: calc(50% + 2px);
                 }
@@ -87,6 +97,7 @@
 
             .swiper-pagination {
                 display: none;
+
                 @media (max-width: $mobile) {
                     display: block;
                     bottom: 0;
@@ -94,5 +105,5 @@
             }
         }
     }
-    
+
 }

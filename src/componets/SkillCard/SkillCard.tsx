@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from 'framer-motion'
 import { classNames } from '../utils/ClassNames'
 
@@ -30,11 +29,11 @@ interface SkillCardProps {
 }
 
 const SkillCard = (props: SkillCardProps) => {
-  const { className, theme = SkillCardThemes.PINK, item } = props
+  const { theme = SkillCardThemes.PINK, item } = props
 
   return (
     <motion.div
-      variants={fadeIn('right', 'spring', item.index * 0.3, 0.15)}
+      variants={fadeIn('right', 'spring', item.index * 0.5, 0.3)}
       className={classNames(cls.SkillCard, {}, [cls[theme]])}>
       {item?.img ? (
         <img className={cls.SkillCardIcon} src={item?.img} />

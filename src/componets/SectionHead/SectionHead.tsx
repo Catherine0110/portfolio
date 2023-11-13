@@ -1,4 +1,3 @@
-import React from 'react'
 import cls from './SectionHead.module.scss'
 
 const SectionHead = ({ title }: { title: string }) => {

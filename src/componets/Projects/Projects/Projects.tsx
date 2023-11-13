@@ -15,9 +15,11 @@ import ProjectItem from '../ProjectItem/ProjectItem'
 import { textVariant } from '../../utils/motion'
 import SectionWrapper from '../../utils/SectionWrapper'
 import { MobileContext } from '../../utils/MobileContextProvider'
+import { useTranslation } from 'react-i18next'
 
 const Projects = () => {
   const { isMobileXs } = React.useContext(MobileContext)
+  const { t } = useTranslation()
   return (
     <div className={cls.ProjectsWrap}>
       <Layout>
@@ -25,8 +27,8 @@ const Projects = () => {
           <motion.div
             variants={textVariant(0)}
             className={cls.ProjectsInnerHead}>
-            <SectionHead title="Portfolio" />
-            <h2 className={cls.ProjectsTitle}>Projects</h2>
+            <SectionHead title={t('Портфолио')} />
+            <h2 className={cls.ProjectsTitle}>{t('Проекты')}</h2>
           </motion.div>
           <Swiper
             navigation={!isMobileXs}
