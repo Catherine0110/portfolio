@@ -6,7 +6,7 @@ import SectionWrapper from '../utils/SectionWrapper'
 import SkillCard from '../SkillCard/SkillCard'
 
 import { motion } from 'framer-motion'
-import { Scrollbar } from 'swiper/modules'
+import { Scrollbar, Mousewheel } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/scrollbar'
@@ -29,9 +29,10 @@ const About = () => {
       </div>
       <div className={cls.AboutSkills}>
         <Swiper
-          modules={[Scrollbar]}
-          spaceBetween={isMobileXs ? 20 : 50}
+          modules={[Scrollbar, Mousewheel]}
           slidesPerView={'auto'}
+          spaceBetween={isMobileXs ? 20 : 50}
+          mousewheel={true}
           scrollbar={{ draggable: true }}>
           {aboutSkills.map((item) => (
             <SwiperSlide key={item.index}>
